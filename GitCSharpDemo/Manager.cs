@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace GitCSharpDemo
 {
-    class Person
+    class Manager : Person
     {
-        public int ID { get; set; }
-        public string FullName { get; set; }
+        List<Developer> Developers { get; set; }
     }
 }
